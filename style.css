@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    background-color: beige;
+    border: none;
+    border-radius: 3px;
+    padding: 4px;
+    font-size: 30px;
+    margin: 10px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: beige;
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+    height: 40px;
+}
+
